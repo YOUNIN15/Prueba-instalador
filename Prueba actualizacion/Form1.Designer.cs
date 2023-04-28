@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.gunaVScrollBar1 = new Guna.UI.WinForms.GunaVScrollBar();
-            this.gunaProgressBar1 = new Guna.UI.WinForms.GunaProgressBar();
             this.gunaRadioButton1 = new Guna.UI.WinForms.GunaRadioButton();
             this.gunaMetroTrackBar1 = new Guna.UI.WinForms.GunaMetroTrackBar();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,6 +36,9 @@
             this.gunaMediumRadioButton1 = new Guna.UI.WinForms.GunaMediumRadioButton();
             this.gunaMediumCheckBox2 = new Guna.UI.WinForms.GunaMediumCheckBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.gunaTransfarantPictureBox1 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
+            this.gunaWinSwitch1 = new Guna.UI.WinForms.GunaWinSwitch();
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaVScrollBar1
@@ -51,19 +53,6 @@
             this.gunaVScrollBar1.ThumbColor = System.Drawing.Color.DimGray;
             this.gunaVScrollBar1.ThumbHoverColor = System.Drawing.Color.Gray;
             this.gunaVScrollBar1.ThumbPressedColor = System.Drawing.Color.DarkGray;
-            // 
-            // gunaProgressBar1
-            // 
-            this.gunaProgressBar1.BorderColor = System.Drawing.Color.Black;
-            this.gunaProgressBar1.ColorStyle = Guna.UI.WinForms.ColorStyle.Default;
-            this.gunaProgressBar1.IdleColor = System.Drawing.Color.Gainsboro;
-            this.gunaProgressBar1.Location = new System.Drawing.Point(407, 110);
-            this.gunaProgressBar1.Name = "gunaProgressBar1";
-            this.gunaProgressBar1.ProgressMaxColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaProgressBar1.ProgressMinColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaProgressBar1.Size = new System.Drawing.Size(200, 23);
-            this.gunaProgressBar1.TabIndex = 1;
-            this.gunaProgressBar1.Value = 78;
             // 
             // gunaRadioButton1
             // 
@@ -140,11 +129,35 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // gunaTransfarantPictureBox1
+            // 
+            this.gunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black;
+            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(606, 198);
+            this.gunaTransfarantPictureBox1.Name = "gunaTransfarantPictureBox1";
+            this.gunaTransfarantPictureBox1.Size = new System.Drawing.Size(120, 120);
+            this.gunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.gunaTransfarantPictureBox1.TabIndex = 10;
+            this.gunaTransfarantPictureBox1.TabStop = false;
+            // 
+            // gunaWinSwitch1
+            // 
+            this.gunaWinSwitch1.BaseColor = System.Drawing.SystemColors.Control;
+            this.gunaWinSwitch1.CheckedOffColor = System.Drawing.Color.DarkGray;
+            this.gunaWinSwitch1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaWinSwitch1.FillColor = System.Drawing.Color.White;
+            this.gunaWinSwitch1.Location = new System.Drawing.Point(143, 363);
+            this.gunaWinSwitch1.Name = "gunaWinSwitch1";
+            this.gunaWinSwitch1.Size = new System.Drawing.Size(40, 22);
+            this.gunaWinSwitch1.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gunaWinSwitch1);
+            this.Controls.Add(this.gunaTransfarantPictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gunaMediumCheckBox2);
             this.Controls.Add(this.gunaMediumRadioButton1);
@@ -152,10 +165,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaMetroTrackBar1);
             this.Controls.Add(this.gunaRadioButton1);
-            this.Controls.Add(this.gunaProgressBar1);
             this.Controls.Add(this.gunaVScrollBar1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,7 +177,6 @@
         #endregion
 
         private Guna.UI.WinForms.GunaVScrollBar gunaVScrollBar1;
-        private Guna.UI.WinForms.GunaProgressBar gunaProgressBar1;
         private Guna.UI.WinForms.GunaRadioButton gunaRadioButton1;
         private Guna.UI.WinForms.GunaMetroTrackBar gunaMetroTrackBar1;
         private System.Windows.Forms.Label label1;
@@ -172,6 +184,8 @@
         private Guna.UI.WinForms.GunaMediumRadioButton gunaMediumRadioButton1;
         private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox2;
         private System.Windows.Forms.Button button1;
+        private Guna.UI.WinForms.GunaTransfarantPictureBox gunaTransfarantPictureBox1;
+        private Guna.UI.WinForms.GunaWinSwitch gunaWinSwitch1;
     }
 }
 
