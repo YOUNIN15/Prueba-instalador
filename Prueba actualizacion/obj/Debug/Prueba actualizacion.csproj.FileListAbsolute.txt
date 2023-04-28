@@ -1,0 +1,17 @@
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Prueba actualizacion.exe.config
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Prueba actualizacion.exe.manifest
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Prueba actualizacion.application
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Prueba actualizacion.exe
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Prueba actualizacion.pdb
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Guna.UI.dll
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.csproj.AssemblyReference.cache
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba_actualizacion.Form1.resources
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba_actualizacion.Properties.Resources.resources
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.csproj.GenerateResource.cache
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.csproj.CoreCompileInputs.cache
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.exe.manifest
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.application
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.csproj.CopyComplete
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.exe
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.pdb
