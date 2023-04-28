@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.gunaMediumCheckBox1 = new Guna.UI.WinForms.GunaMediumCheckBox();
             this.gunaMediumRadioButton1 = new Guna.UI.WinForms.GunaMediumRadioButton();
+            this.gunaMediumCheckBox2 = new Guna.UI.WinForms.GunaMediumCheckBox();
             this.SuspendLayout();
             // 
             // gunaVScrollBar1
@@ -117,11 +118,23 @@
             this.gunaMediumRadioButton1.Size = new System.Drawing.Size(20, 20);
             this.gunaMediumRadioButton1.TabIndex = 7;
             // 
+            // gunaMediumCheckBox2
+            // 
+            this.gunaMediumCheckBox2.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox2.CheckedOffColor = System.Drawing.Color.Gray;
+            this.gunaMediumCheckBox2.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaMediumCheckBox2.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox2.Location = new System.Drawing.Point(68, 79);
+            this.gunaMediumCheckBox2.Name = "gunaMediumCheckBox2";
+            this.gunaMediumCheckBox2.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox2.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gunaMediumCheckBox2);
             this.Controls.Add(this.gunaMediumRadioButton1);
             this.Controls.Add(this.gunaMediumCheckBox1);
             this.Controls.Add(this.label1);
@@ -145,6 +158,7 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox1;
         private Guna.UI.WinForms.GunaMediumRadioButton gunaMediumRadioButton1;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox2;
     }
 }
 
