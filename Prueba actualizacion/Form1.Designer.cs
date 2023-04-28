@@ -33,6 +33,8 @@
             this.gunaRadioButton1 = new Guna.UI.WinForms.GunaRadioButton();
             this.gunaMetroTrackBar1 = new Guna.UI.WinForms.GunaMetroTrackBar();
             this.label1 = new System.Windows.Forms.Label();
+            this.gunaMediumCheckBox1 = new Guna.UI.WinForms.GunaMediumCheckBox();
+            this.gunaMediumRadioButton1 = new Guna.UI.WinForms.GunaMediumRadioButton();
             this.SuspendLayout();
             // 
             // gunaVScrollBar1
@@ -93,11 +95,35 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Alturomelomama15";
             // 
+            // gunaMediumCheckBox1
+            // 
+            this.gunaMediumCheckBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox1.CheckedOffColor = System.Drawing.Color.Gray;
+            this.gunaMediumCheckBox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaMediumCheckBox1.FillColor = System.Drawing.Color.White;
+            this.gunaMediumCheckBox1.Location = new System.Drawing.Point(83, 292);
+            this.gunaMediumCheckBox1.Name = "gunaMediumCheckBox1";
+            this.gunaMediumCheckBox1.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumCheckBox1.TabIndex = 6;
+            // 
+            // gunaMediumRadioButton1
+            // 
+            this.gunaMediumRadioButton1.BaseColor = System.Drawing.Color.White;
+            this.gunaMediumRadioButton1.CheckedOffColor = System.Drawing.Color.Gray;
+            this.gunaMediumRadioButton1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaMediumRadioButton1.FillColor = System.Drawing.Color.White;
+            this.gunaMediumRadioButton1.Location = new System.Drawing.Point(83, 198);
+            this.gunaMediumRadioButton1.Name = "gunaMediumRadioButton1";
+            this.gunaMediumRadioButton1.Size = new System.Drawing.Size(20, 20);
+            this.gunaMediumRadioButton1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gunaMediumRadioButton1);
+            this.Controls.Add(this.gunaMediumCheckBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaMetroTrackBar1);
             this.Controls.Add(this.gunaRadioButton1);
@@ -117,6 +143,8 @@
         private Guna.UI.WinForms.GunaRadioButton gunaRadioButton1;
         private Guna.UI.WinForms.GunaMetroTrackBar gunaMetroTrackBar1;
         private System.Windows.Forms.Label label1;
+        private Guna.UI.WinForms.GunaMediumCheckBox gunaMediumCheckBox1;
+        private Guna.UI.WinForms.GunaMediumRadioButton gunaMediumRadioButton1;
     }
 }
 
