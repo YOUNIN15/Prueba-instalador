@@ -33,6 +33,7 @@
             this.gunaProgressBar1 = new Guna.UI.WinForms.GunaProgressBar();
             this.gunaRadioButton1 = new Guna.UI.WinForms.GunaRadioButton();
             this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.gunaMetroTrackBar1 = new Guna.UI.WinForms.GunaMetroTrackBar();
             this.SuspendLayout();
             // 
             // gunaVScrollBar1
@@ -103,11 +104,23 @@
             this.gunaAdvenceButton1.TabIndex = 3;
             this.gunaAdvenceButton1.Text = "gunaAdvenceButton1";
             // 
+            // gunaMetroTrackBar1
+            // 
+            this.gunaMetroTrackBar1.Location = new System.Drawing.Point(338, 311);
+            this.gunaMetroTrackBar1.Name = "gunaMetroTrackBar1";
+            this.gunaMetroTrackBar1.Size = new System.Drawing.Size(100, 23);
+            this.gunaMetroTrackBar1.TabIndex = 4;
+            this.gunaMetroTrackBar1.TrackColor = System.Drawing.Color.DimGray;
+            this.gunaMetroTrackBar1.TrackHoverColor = System.Drawing.Color.Gray;
+            this.gunaMetroTrackBar1.TrackIdleColor = System.Drawing.Color.Silver;
+            this.gunaMetroTrackBar1.TrackPressedColor = System.Drawing.Color.Black;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gunaMetroTrackBar1);
             this.Controls.Add(this.gunaAdvenceButton1);
             this.Controls.Add(this.gunaRadioButton1);
             this.Controls.Add(this.gunaProgressBar1);
@@ -125,6 +138,7 @@
         private Guna.UI.WinForms.GunaProgressBar gunaProgressBar1;
         private Guna.UI.WinForms.GunaRadioButton gunaRadioButton1;
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton1;
+        private Guna.UI.WinForms.GunaMetroTrackBar gunaMetroTrackBar1;
     }
 }
 
