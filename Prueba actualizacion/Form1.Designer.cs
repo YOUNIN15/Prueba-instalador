@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gunaVScrollBar1 = new Guna.UI.WinForms.GunaVScrollBar();
             this.gunaProgressBar1 = new Guna.UI.WinForms.GunaProgressBar();
             this.gunaRadioButton1 = new Guna.UI.WinForms.GunaRadioButton();
-            this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaMetroTrackBar1 = new Guna.UI.WinForms.GunaMetroTrackBar();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // gunaVScrollBar1
@@ -74,36 +73,6 @@
             this.gunaRadioButton1.TabIndex = 2;
             this.gunaRadioButton1.Text = "gunaRadioButton1";
             // 
-            // gunaAdvenceButton1
-            // 
-            this.gunaAdvenceButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton1.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaAdvenceButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton1.CheckedImage")));
-            this.gunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton1.Image")));
-            this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton1.Location = new System.Drawing.Point(242, 33);
-            this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
-            this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton1.OnHoverImage = null;
-            this.gunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.Size = new System.Drawing.Size(180, 42);
-            this.gunaAdvenceButton1.TabIndex = 3;
-            this.gunaAdvenceButton1.Text = "gunaAdvenceButton1";
-            // 
             // gunaMetroTrackBar1
             // 
             this.gunaMetroTrackBar1.Location = new System.Drawing.Point(338, 311);
@@ -115,13 +84,22 @@
             this.gunaMetroTrackBar1.TrackIdleColor = System.Drawing.Color.Silver;
             this.gunaMetroTrackBar1.TrackPressedColor = System.Drawing.Color.Black;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(538, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Alturomelomama15";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaMetroTrackBar1);
-            this.Controls.Add(this.gunaAdvenceButton1);
             this.Controls.Add(this.gunaRadioButton1);
             this.Controls.Add(this.gunaProgressBar1);
             this.Controls.Add(this.gunaVScrollBar1);
@@ -137,8 +115,8 @@
         private Guna.UI.WinForms.GunaVScrollBar gunaVScrollBar1;
         private Guna.UI.WinForms.GunaProgressBar gunaProgressBar1;
         private Guna.UI.WinForms.GunaRadioButton gunaRadioButton1;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton1;
         private Guna.UI.WinForms.GunaMetroTrackBar gunaMetroTrackBar1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
