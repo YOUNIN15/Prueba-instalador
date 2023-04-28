@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gunaVScrollBar1 = new Guna.UI.WinForms.GunaVScrollBar();
             this.gunaRadioButton1 = new Guna.UI.WinForms.GunaRadioButton();
             this.gunaMetroTrackBar1 = new Guna.UI.WinForms.GunaMetroTrackBar();
@@ -38,6 +39,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.gunaTransfarantPictureBox1 = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.gunaWinSwitch1 = new Guna.UI.WinForms.GunaWinSwitch();
+            this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
+            this.gunaTileButton1 = new Guna.UI.WinForms.GunaTileButton();
             ((System.ComponentModel.ISupportInitialize)(this.gunaTransfarantPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +71,7 @@
             // 
             // gunaMetroTrackBar1
             // 
-            this.gunaMetroTrackBar1.Location = new System.Drawing.Point(338, 311);
+            this.gunaMetroTrackBar1.Location = new System.Drawing.Point(242, 331);
             this.gunaMetroTrackBar1.Name = "gunaMetroTrackBar1";
             this.gunaMetroTrackBar1.Size = new System.Drawing.Size(100, 23);
             this.gunaMetroTrackBar1.TabIndex = 4;
@@ -151,11 +154,44 @@
             this.gunaWinSwitch1.Size = new System.Drawing.Size(40, 22);
             this.gunaWinSwitch1.TabIndex = 11;
             // 
+            // gunaSeparator1
+            // 
+            this.gunaSeparator1.LineColor = System.Drawing.Color.Silver;
+            this.gunaSeparator1.Location = new System.Drawing.Point(439, 128);
+            this.gunaSeparator1.Name = "gunaSeparator1";
+            this.gunaSeparator1.Size = new System.Drawing.Size(200, 10);
+            this.gunaSeparator1.TabIndex = 12;
+            // 
+            // gunaTileButton1
+            // 
+            this.gunaTileButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaTileButton1.AnimationSpeed = 0.03F;
+            this.gunaTileButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTileButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaTileButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaTileButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaTileButton1.Font = new System.Drawing.Font("Segoe UI Light", 15.75F);
+            this.gunaTileButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaTileButton1.Image = ((System.Drawing.Image)(resources.GetObject("gunaTileButton1.Image")));
+            this.gunaTileButton1.ImageSize = new System.Drawing.Size(52, 52);
+            this.gunaTileButton1.Location = new System.Drawing.Point(408, 184);
+            this.gunaTileButton1.Name = "gunaTileButton1";
+            this.gunaTileButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.gunaTileButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaTileButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaTileButton1.OnHoverImage = null;
+            this.gunaTileButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaTileButton1.Size = new System.Drawing.Size(160, 160);
+            this.gunaTileButton1.TabIndex = 13;
+            this.gunaTileButton1.Text = "gunaTileButton1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.gunaTileButton1);
+            this.Controls.Add(this.gunaSeparator1);
             this.Controls.Add(this.gunaWinSwitch1);
             this.Controls.Add(this.gunaTransfarantPictureBox1);
             this.Controls.Add(this.button1);
@@ -186,6 +222,8 @@
         private System.Windows.Forms.Button button1;
         private Guna.UI.WinForms.GunaTransfarantPictureBox gunaTransfarantPictureBox1;
         private Guna.UI.WinForms.GunaWinSwitch gunaWinSwitch1;
+        private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
+        private Guna.UI.WinForms.GunaTileButton gunaTileButton1;
     }
 }
 
