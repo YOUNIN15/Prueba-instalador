@@ -68,11 +68,14 @@ namespace Prueba_actualizacion
         private void tmhora_Tick(object sender, EventArgs e)
         {
             lblsegundos.Text = DateTime.Now.ToString("ss");
-            cirpbreloj.Value = Convert.ToInt32(DateTime.Now.ToString("ss"));
+            //cirpbreloj.Value = Convert.ToInt32(DateTime.Now.ToString("ss"));
             lblhora.Text = DateTime.Now.ToString("hh:mm");
             //label3.Text = DateTime.Now.ToString('dddd');
             lblfecha.Text = DateTime.Now.ToShortDateString();
-            cirpbreloj.Value = int.Parse(lblsegundos.Text);
+            //cirpbreloj.Value = int.Parse(lblsegundos.Text);
+
+            double porcentajeCompletado = (double)DateTime.Now.Second / 60 * 100;
+            cirpbreloj.Value = (int)porcentajeCompletado;
         }
     }
 }

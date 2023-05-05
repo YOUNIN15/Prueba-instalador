@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.cirpbreloj = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.lblsegundos = new System.Windows.Forms.Label();
-            this.lblhora = new System.Windows.Forms.Label();
             this.lblfecha = new System.Windows.Forms.Label();
+            this.lblhora = new System.Windows.Forms.Label();
+            this.lblsegundos = new System.Windows.Forms.Label();
             this.tmhora = new System.Windows.Forms.Timer(this.components);
             this.cirpbreloj.SuspendLayout();
             this.SuspendLayout();
@@ -64,15 +64,16 @@
             this.cirpbreloj.TabIndex = 10;
             this.cirpbreloj.Text = "guna2CircleProgressBar1";
             // 
-            // lblsegundos
+            // lblfecha
             // 
-            this.lblsegundos.AutoSize = true;
-            this.lblsegundos.ForeColor = System.Drawing.Color.Black;
-            this.lblsegundos.Location = new System.Drawing.Point(92, 39);
-            this.lblsegundos.Name = "lblsegundos";
-            this.lblsegundos.Size = new System.Drawing.Size(28, 21);
-            this.lblsegundos.TabIndex = 0;
-            this.lblsegundos.Text = "00";
+            this.lblfecha.AutoSize = true;
+            this.lblfecha.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfecha.ForeColor = System.Drawing.Color.Black;
+            this.lblfecha.Location = new System.Drawing.Point(74, 152);
+            this.lblfecha.Name = "lblfecha";
+            this.lblfecha.Size = new System.Drawing.Size(74, 17);
+            this.lblfecha.TabIndex = 2;
+            this.lblfecha.Text = "12/12/2023";
             // 
             // lblhora
             // 
@@ -85,16 +86,15 @@
             this.lblhora.TabIndex = 1;
             this.lblhora.Text = "00:00";
             // 
-            // lblfecha
+            // lblsegundos
             // 
-            this.lblfecha.AutoSize = true;
-            this.lblfecha.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfecha.ForeColor = System.Drawing.Color.Black;
-            this.lblfecha.Location = new System.Drawing.Point(74, 152);
-            this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(74, 17);
-            this.lblfecha.TabIndex = 2;
-            this.lblfecha.Text = "12/12/2023";
+            this.lblsegundos.AutoSize = true;
+            this.lblsegundos.ForeColor = System.Drawing.Color.Black;
+            this.lblsegundos.Location = new System.Drawing.Point(92, 39);
+            this.lblsegundos.Name = "lblsegundos";
+            this.lblsegundos.Size = new System.Drawing.Size(28, 21);
+            this.lblsegundos.TabIndex = 0;
+            this.lblsegundos.Text = "00";
             // 
             // tmhora
             // 
