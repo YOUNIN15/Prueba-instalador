@@ -55,5 +55,24 @@ namespace Prueba_actualizacion
                 MessageBox.Show("Ocurrió un error al buscar actualizaciones.\n\nError: " + ex.Message, "Actualización", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ObtenerHora();
+        }
+
+       private void ObtenerHora()
+        {
+        }
+
+        private void tmhora_Tick(object sender, EventArgs e)
+        {
+            lblsegundos.Text = DateTime.Now.ToString("ss");
+            cirpbreloj.Value = Convert.ToInt32(DateTime.Now.ToString("ss"));
+            lblhora.Text = DateTime.Now.ToString("hh:mm");
+            //label3.Text = DateTime.Now.ToString('dddd');
+            lblfecha.Text = DateTime.Now.ToShortDateString();
+            cirpbreloj.Value = int.Parse(lblsegundos.Text);
+        }
     }
 }

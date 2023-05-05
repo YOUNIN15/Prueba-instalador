@@ -15,3 +15,4 @@ C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba act
 C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.csproj.CopyComplete
 C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.exe
 C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\obj\Debug\Prueba actualizacion.pdb
+C:\Users\YOUNIN\Documents\Prueba actualizacion auto\Prueba-instalador\Prueba actualizacion\bin\Debug\Guna.UI2.dll
