@@ -36,7 +36,6 @@
             this.lblsegundos = new System.Windows.Forms.Label();
             this.tmhora = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnabrir = new Guna.UI2.WinForms.Guna2GradientButton();
             this.cirpbreloj.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -112,7 +111,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnabrir);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.cirpbreloj);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -120,22 +118,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 450);
             this.panel1.TabIndex = 11;
-            // 
-            // btnabrir
-            // 
-            this.btnabrir.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnabrir.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnabrir.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnabrir.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnabrir.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnabrir.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnabrir.ForeColor = System.Drawing.Color.White;
-            this.btnabrir.Location = new System.Drawing.Point(608, 12);
-            this.btnabrir.Name = "btnabrir";
-            this.btnabrir.Size = new System.Drawing.Size(180, 45);
-            this.btnabrir.TabIndex = 11;
-            this.btnabrir.Text = "Abrir otro formulario";
-            this.btnabrir.Click += new System.EventHandler(this.btnabrir_Click);
             // 
             // Form1
             // 
@@ -161,7 +143,6 @@
         private System.Windows.Forms.Label lblsegundos;
         private System.Windows.Forms.Timer tmhora;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2GradientButton btnabrir;
     }
 }
 

@@ -73,10 +73,5 @@ namespace Prueba_actualizacion
             double porcentajeCompletado = (double)DateTime.Now.Second / 60 * 100;
             cirpbreloj.Value = (int)porcentajeCompletado;
         }
-
-        private void btnabrir_Click(object sender, EventArgs e)
-        {
-            fr
-        }
     }
 }
