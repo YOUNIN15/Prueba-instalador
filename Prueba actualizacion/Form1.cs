@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Prueba_actualizacion;
 
 namespace Prueba_actualizacion
 {
@@ -58,11 +59,6 @@ namespace Prueba_actualizacion
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ObtenerHora();
-        }
-
-       private void ObtenerHora()
-        {
         }
 
         private void tmhora_Tick(object sender, EventArgs e)
@@ -76,6 +72,11 @@ namespace Prueba_actualizacion
 
             double porcentajeCompletado = (double)DateTime.Now.Second / 60 * 100;
             cirpbreloj.Value = (int)porcentajeCompletado;
+        }
+
+        private void btnabrir_Click(object sender, EventArgs e)
+        {
+            fr
         }
     }
 }
